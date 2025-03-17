@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - AH Industries</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('./Sidhu\ Moose\ Wala\ Sidhu\ Moose\ Wala\ Level\ GIF\ -\ Sidhu\ Moose\ Wala\ Sidhu\ Moose\ Wala\ Level\ -\ Discover\ &\ Share\ GIFs.gif');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+        .header {
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+            padding: 20px 0;
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .navbar {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+            transition: color 0.3s ease-in-out;
+        }
+        .navbar nav a:hover {
+            color: #1DB954;
+        }
+        .content {
+            padding: 50px;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">AH Industries</div>
+    <div class="navbar">
+        <span>AH Industries</span>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="huraira.html">Music</a>
+        </nav>
+    </div>
+    <div class="content">
+        <h2>Welcome to AH Industries</h2>
+        <p>We provide top-notch services and innovative solutions.</p>
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form action="https://getform.io/f/anlqjnza" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file">
+                <input type="text" name="full-name" placeholder="Your name">
+                <!-- add hidden Honeypot input to prevent spams -->
+                <input type="hidden" name="_gotcha" style="display:none !important">
+                <input type="email" name="email" placeholder="your email">
+                
+        <input type="text" name="message" placeholder="your message">
+                <button type="submit">Send</button>
+             </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+   <div class="form-container">
+        <h2>Contact Us</h2>
+        <form action="https://getform.io/f/anlqjnza" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="text" name="full-name" placeholder="Your name">
+            <!-- add hidden Honeypot input to prevent spams -->
+            <input type="hidden" name="_gotcha" style="display:none !important">
+            <input type="email" name="email" placeholder="your email">
+            
+    <input type="text" name="message" placeholder="your message">
+            <button type="submit">Send</button>
+         </form>
